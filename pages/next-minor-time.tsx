@@ -118,8 +118,7 @@ const NextMinorTime: React.FC = () => {
       <Container>
         <Title>Classes de Prioridade</Title>
         <Paragraph>
-        Enquanto houverem processos prontos em uma classe superior, os processo das
-        classes abaixo nunca serão executados.
+        Os processos recebem “tickets” para uso de vários recursos, inclusive CPU o escalonador sorteia um ticket ao acaso, o processo que possuir esse ticket ganha acesso ao recurso cada ticket vale uma certa quantidade de recurso, processos de mais importância podem receber tickets extras.
         </Paragraph>
            <Button onClick={(event) => handleRegister(event)}>Adicionar Processos</Button>
         <Paragraph>PILHA</Paragraph>
