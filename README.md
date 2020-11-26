@@ -34,4 +34,4 @@ YARN ou NPM
     npm install &&
     npm run dev
 ```
-
+![Screenshot 2020-11-25 232300](https://user-images.githubusercontent.com/39541807/100300920-cd7afa80-2f75-11eb-83a8-594617925479.png)
