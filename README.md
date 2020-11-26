@@ -1,30 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TRABALHO DE SISTEMAS OPERACIONAIS
 
-## Getting Started
+Em Sistemas Operacionais o escalonador de processo é um processo que deve ser
+executado quando da mudança de contexto (troca de processo), ao passo que ele
+escolhe o processo que será executado pela CPU, sendo o escalonamento realizado
+com o auxílio do hardware. São utilizados algoritmos de escalonamento para
+determinar qual processo será executado em determinado momento e por quanto
+tempo. Dada essa definição, vimos na disciplina algumas formas de como o
+escalonador se comporta, ou seja, seu algoritmo. Alguns desses algoritmos, são:
+ - Escalonamento Round Robin;
+ - Escalonamento com Classes de Prioridade;
+ - Escalonamento do Próximo Menor Tempo;
+ - Escalonamento da Loteria;
+ - Escalonamento do Compartilhamento Justo;
+ - Escalonamento de Tempo Real.
+O trabalho consiste na implementação de quatro desses problemas. Apesar de
+parecer trabalhoso a implementação é simples, basta criar um vetor ou uma pilha/fila e
+preencher utilizando a lógica de cada um desses algoritmos.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
+REQUISITOS PARA RODAR PROJETO:
+
+NODE 12.18+
+YARN ou NPM
+
+### Para YARN
+```
+    yarn &&
+    yarn dev
+```
+### Para NPM
+```
+    npm install &&
+    npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
